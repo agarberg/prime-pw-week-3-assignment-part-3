@@ -69,21 +69,6 @@ let partsPerBox = 7;
 let partsLeft = 0 ;
 while (partsTotal >= 6) {
   partsTotal -= partsPerBox;
-  partsLeft = partsTotal
+  partsLeft = partsTotal;
   }
 console.log(partsTotal);
-
-
-/*
-let filledBoxes = 0;
-let partsLeft = 0;
-let index = 0;
-const max = 572;
-while ( index < max ){
-  index = filledBoxes-1; // incriment 82 - make filledBoxes = 81
-  partsLeft = max-(filledBoxes *7) // original parts(572) subtract (filled box parts - 567)
-  index +=7;
-}
-console.log(filledBoxes); // 81
-console.log(partsLeft); // 5
-*/
